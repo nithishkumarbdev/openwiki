@@ -15,7 +15,7 @@ pnpm setup
 ```
 
 Restart your shell, or source the profile file that `pnpm setup` changed. Then
-set up and link this package:
+Set up and link this package:
 
 ```sh
 cd /Users/bracesproul/code/lang-chain-ai/projects/agent-docs
@@ -52,7 +52,7 @@ alias openwiki='node /Users/bracesproul/code/lang-chain-ai/projects/agent-docs/d
 
 That alias can go in `~/.zshrc` if you want it to persist.
 
-After changing OpenWiki source code, rebuild from this package directory:
+After changing the OpenWiki source code, rebuild from this package directory:
 
 ```sh
 pnpm run build
